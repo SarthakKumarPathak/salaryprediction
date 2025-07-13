@@ -30,39 +30,31 @@ A **Streamlit web app** that predicts salaries for data professionals based on j
 
 The model takes the following key inputs:
 
-| Feature              | Type     | Description                                                |
-|----------------------|----------|------------------------------------------------------------|
-| `experience_level`   | Dropdown | EN (Entry), MI (Mid), SE (Senior), EX (Executive)          |
-| `employment_type`    | Dropdown | FT (Full-time), PT (Part-time), CT (Contract), FL (Freelance) |
-| `company_size`       | Dropdown | S (Small), M (Medium), L (Large)                           |
-| `employee_residence` | Dropdown | Country where the employee is located                      |
-| `job_title`          | Dropdown | E.g., Data Scientist, Analyst, ML Engineer, etc.           |
-| `remote_ratio`       | Numeric  | % of remote work (0, 50, 100)                              |
+| Feature              | Type     | Description                                                    |
+|----------------------|----------|----------------------------------------------------------------|
+| `experience_level`   | Dropdown | EN (Entry), MI (Mid), SE (Senior), EX (Executive)              |
+| `employment_type`    | Dropdown | FT (Full-time), PT (Part-time), CT (Contract), FL (Freelance)  |
+| `company_size`       | Dropdown | S (Small), M (Medium), L (Large)                               |
+| `employee_residence` | Dropdown | Country where the employee is located                          |
+| `job_title`          | Dropdown | E.g., Data Scientist, Analyst, ML Engineer, etc.               |
+| `remote_ratio`       | Numeric  | % of remote work (0, 50, 100)                                  |
 
 ---
 
 ## 📁 Project Structure
 
+
 ---
 
 ## ▶️ Running the App Locally
 
-1. 🔁 Clone the repository:
-
 ```bash
+# 1. Clone the repository
 git clone https://github.com/yourusername/salary-predictor-app.git
 cd salary-predictor-app
 
-🛠️ Install dependencies:
-
-bash
-Copy
-Edit
+# 2. Install dependencies
 pip install -r requirements.txt
-▶️ Run the Streamlit app:
 
-bash
-Copy
-Edit
+# 3. Run the Streamlit app
 streamlit run app.py
-
