@@ -1,34 +1,39 @@
 # 💼 Salary Predictor App
 
-A **Streamlit web app** that predicts salaries for data professionals based on job-related features using an **ensemble machine learning model**. This app helps users estimate salaries in both **USD and INR** by providing just a few inputs.
+A **Streamlit web app** that predicts salaries for data professionals based on job-related features using an **ensemble machine learning model**. This app helps users estimate salaries in both **USD and INR** with just a few simple inputs.
+
+🔗 **Live App:**  
+👉 [https://salaryprediction51.streamlit.app/](https://salaryprediction51.streamlit.app/)
 
 ---
 
 ## 🚀 Features
 
 - 🔮 Predict salary in both **USD and INR**
-- 📉 Powered by an **Ensemble Learning** model (Voting Regressor)
-- 🧠 Uses top 5 features for efficient predictions
-- 📊 Dropdown inputs for clean and user-friendly experience
-- ✅ **84.73% Accuracy (R² score)** on test data
+- 🧠 Powered by an **Ensemble Machine Learning Model** (`Voting Regressor`)
+- 📉 Utilizes the **top 5 impactful features** for accurate predictions
+- 📊 Clean, dropdown-based interface for user-friendly experience
+- ✅ Achieves **84.73% Accuracy (R² score)** on test data
 
 ---
 
 ## 🧠 Machine Learning Model
 
-- **Dataset:** `ds_salaries.csv` (Data Science salaries from around the world)
+- **Dataset:** `ds_salaries.csv` — Contains Data Science salaries from across the globe
 - **Target Variable:** `salary_in_usd`
-- **Algorithm:** `Voting Regressor (Linear + Random Forest + Gradient Boosting)`
-- **Performance:**
-  - ✅ **R² Score:** **0.8473**
-  - 📉 RMSE: ~42,000
-  - 📊 MAE: ~29,000
+- **Model Used:** `Voting Regressor`
+  - Combines:
+    - Linear Regression
+    - Random Forest Regressor
+    - Gradient Boosting Regressor
+- **Performance Metrics:**
+  - 📈 **R² Score:** 0.8473
+  - 📉 **Root Mean Squared Error (RMSE):** ~42,000
+  - 📊 **Mean Absolute Error (MAE):** ~29,000
 
 ---
 
 ## 📥 Input Features
-
-The model takes the following key inputs:
 
 | Feature              | Type     | Description                                                    |
 |----------------------|----------|----------------------------------------------------------------|
@@ -41,20 +46,10 @@ The model takes the following key inputs:
 
 ---
 
-## 📁 Project Structure
+## 🖥️ Screenshots
 
+*(Optional: Add screenshots here using markdown image links if available)*
 
----
-
-## ▶️ Running the App Locally
-
-```bash
-# 1. Clone the repository
-git clone https://github.com/yourusername/salary-predictor-app.git
-cd salary-predictor-app
-
-# 2. Install dependencies
-pip install -r requirements.txt
-
-# 3. Run the Streamlit app
-streamlit run app.py
+```markdown
+![Home Page](screenshots/home.png)
+![Prediction Example](screenshots/prediction.png)
