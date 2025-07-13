@@ -53,4 +53,16 @@ The model takes the following key inputs:
 git clone https://github.com/yourusername/salary-predictor-app.git
 cd salary-predictor-app
 
+🛠️ Install dependencies:
+
+bash
+Copy
+Edit
+pip install -r requirements.txt
+▶️ Run the Streamlit app:
+
+bash
+Copy
+Edit
+streamlit run app.py
 
