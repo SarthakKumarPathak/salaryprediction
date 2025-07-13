@@ -1,6 +1,6 @@
 # 💼 Salary Predictor App
 
-A **Streamlit web app** that predicts salaries for data professionals based on job-related features using an **ensemble machine learning model**. This app helps users estimate salaries in both **USD and INR** with just a few simple inputs.
+A **Streamlit web app** that predicts salaries for data professionals based on key job-related features using an **ensemble machine learning model**. This tool estimates salaries in both **USD** and **INR** and is built for quick, easy, and accurate predictions.
 
 🔗 **Live App:**  
 👉 [https://salaryprediction51.streamlit.app/](https://salaryprediction51.streamlit.app/)
@@ -9,27 +9,27 @@ A **Streamlit web app** that predicts salaries for data professionals based on j
 
 ## 🚀 Features
 
-- 🔮 Predict salary in both **USD and INR**
-- 🧠 Powered by an **Ensemble Machine Learning Model** (`Voting Regressor`)
-- 📉 Utilizes the **top 5 impactful features** for accurate predictions
-- 📊 Clean, dropdown-based interface for user-friendly experience
-- ✅ Achieves **84.73% Accuracy (R² score)** on test data
+- 🔮 Predict salaries in both **USD** and **INR**
+- 🧠 Uses an **ensemble model** (`Voting Regressor`) for high accuracy
+- 📊 Clean and responsive UI with dropdown-based inputs
+- ⚡ Fast predictions using only **6 key features**
+- ✅ **R² Score:** **0.8473** (84.73% accuracy)
 
 ---
 
 ## 🧠 Machine Learning Model
 
-- **Dataset:** `ds_salaries.csv` — Contains Data Science salaries from across the globe
+- **Dataset:** `ds_salaries.csv` (Data Science salaries from around the world)
 - **Target Variable:** `salary_in_usd`
 - **Model Used:** `Voting Regressor`
   - Combines:
     - Linear Regression
     - Random Forest Regressor
     - Gradient Boosting Regressor
-- **Performance Metrics:**
-  - 📈 **R² Score:** 0.8473
-  - 📉 **Root Mean Squared Error (RMSE):** ~42,000
-  - 📊 **Mean Absolute Error (MAE):** ~29,000
+- **Performance:**
+  - ✅ R² Score: `0.8473`
+  - 📉 RMSE: ~42,000
+  - 📊 MAE: ~29,000
 
 ---
 
@@ -46,3 +46,22 @@ A **Streamlit web app** that predicts salaries for data professionals based on j
 
 ---
 
+## 📁 Project Structure
+
+
+---
+
+## ▶️ Running the App Locally
+
+Follow these steps to run the project locally:
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/yourusername/salary-predictor-app.git
+cd salary-predictor-app
+
+# 2. Install dependencies
+pip install -r requirements.txt
+
+# 3. Run the Streamlit app
+streamlit run app.py
