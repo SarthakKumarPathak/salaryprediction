@@ -46,10 +46,3 @@ A **Streamlit web app** that predicts salaries for data professionals based on j
 
 ---
 
-## 🖥️ Screenshots
-
-*(Optional: Add screenshots here using markdown image links if available)*
-
-```markdown
-![Home Page](screenshots/home.png)
-![Prediction Example](screenshots/prediction.png)
