@@ -43,3 +43,14 @@ The model takes the following key inputs:
 
 ## 📁 Project Structure
 
+---
+
+## ▶️ Running the App Locally
+
+1. 🔁 Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/salary-predictor-app.git
+cd salary-predictor-app
+
+
